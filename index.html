@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .holder {
+            display: flex;
+            outline: 2px solid black;
+            border-radius: 20px 20px 0px 0px;
+            width: 450px;
+            height: 200px;
+            flex-wrap: wrap;
+        }
+
+        .item-first {
+            display: flex;
+            order: -1;
+            border-radius: 20px 0px 0px 0px;
+            background: tomato;
+            flex: 200 2 auto;
+            height: 100px;
+            width: 200px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item-second {
+            display: flex;
+            order: 1;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 100px;
+            background: blueviolet;
+            
+        }
+
+        .item-third {
+            display: flex;
+            order: 1;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 100px;
+            background: blue;
+        }
+
+        .item-fourth {
+            display: flex;
+            order: 1;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+            height: 100px;
+            background: green;
+        }
+
+        .item-fifth {
+            display: flex;
+            flex: 200 2 auto;
+            border-radius: 0px 20px 0px 0px;
+            background: orange;
+            order: -1;
+            height: 100px;
+            width: 200px;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="holder">
+        <div class="item-first">1</div>
+        <div class="item-second">2</div>
+        <div class="item-third">3</div>
+        <div class="item-fourth">4</div>
+        <div class="item-fifth">5</div>
+    </div>
+</body>
+
+</html>
